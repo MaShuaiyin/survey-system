@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/survey/Survey_1_UI/Survey_1_UI.iml" filepath="$PROJECT_DIR$/survey/Survey_1_UI/Survey_1_UI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/survey/Survey_2_Component/Survey_2_Component.iml" filepath="$PROJECT_DIR$/survey/Survey_2_Component/Survey_2_Component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/survey/Survey_3_Public/Survey_3_Public.iml" filepath="$PROJECT_DIR$/survey/Survey_3_Public/Survey_3_Public.iml" />
+      <module fileurl="file://$PROJECT_DIR$/survey/Survey_4_Enviroment/Survey_4_Enviroment.iml" filepath="$PROJECT_DIR$/survey/Survey_4_Enviroment/Survey_4_Enviroment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/survey-system.iml" filepath="$PROJECT_DIR$/.idea/survey-system.iml" />
+    </modules>
+  </component>
+</project>
