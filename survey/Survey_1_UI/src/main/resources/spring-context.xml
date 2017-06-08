@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+    <!-- 引入外部配置文件 -->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!-- 配置c3p0数据源 -->
+    <bean id="comboPooledDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="user" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="driverClass" value="${jdbc.driver}"/>
+    </bean>
+
+    <!-- 配置 Hibernate 的 SessionFactory-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <!-- 装配数据源 -->
+        <property name="dataSource" ref="comboPooledDataSource"/>
+        <!-- 指定cfg文件的位置-->
+        <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
+        <!-- hbm 文件的位置 -->
+        <property name="mappingLocations" value="classpath:Employee.hbm.xml"/>
+    </bean>
+
+
+</beans>

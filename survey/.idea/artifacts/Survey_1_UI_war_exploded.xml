@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Survey_1_UI:war exploded">
+    <output-path>$PROJECT_DIR$/Survey_1_UI/target/Survey_1_UI</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Survey_1_UI" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Survey_1_UI/target/Survey_1_UI/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Survey_1_UI/web/Web" />
+    </root>
+  </artifact>
+</component>

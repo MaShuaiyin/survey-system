@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Survey_1_UI" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Survey_1_UI/pom.xml" />
+        <option value="$PROJECT_DIR$/Survey_4_Enviroment/pom.xml" />
+        <option value="$PROJECT_DIR$/Survey_3_Public/pom.xml" />
+        <option value="$PROJECT_DIR$/Survey_2_Component/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
